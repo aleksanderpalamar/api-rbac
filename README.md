@@ -49,19 +49,27 @@ npm run dev
 ## Endpoints da API
 ### Funções (Roles)
 
-`POST /roles`: Criar uma nova função.
-`GET /roles`: Obter todas as funções.
-`GET /roles/:id`: Obter uma função específica pelo ID.
-`PUT /roles/:id`: Atualizar uma função específica pelo ID.
-`DELETE /roles/:id`: Excluir uma função específica pelo ID.
+- `POST /roles`: Criar uma nova função.
+
+- `GET /roles`: Obter todas as funções.
+
+- `GET /roles/:id`: Obter uma função específica pelo ID.
+
+- `PUT /roles/:id`: Atualizar uma função específica pelo ID.
+
+- `DELETE /roles/:id`: Excluir uma função específica pelo ID.
 
 ### Usuários (Users)
 
-`POST /users`: Criar um novo usuário.
-`GET /users`: Obter todos os usuários.
-`GET /users/:id`: Obter um usuário específico pelo ID.
-`PUT /users/:id`: Atualizar um usuário específico pelo ID.
-`DELETE /users/:id`: Excluir um usuário específico pelo ID.
+- `POST /users`: Criar um novo usuário.
+
+- `GET /users`: Obter todos os usuários.
+
+- `GET /users/:id`: Obter um usuário específico pelo ID.
+
+- `PUT /users/:id`: Atualizar um usuário específico pelo ID.
+
+- `DELETE /users/:id`: Excluir um usuário específico pelo ID.
 
 ## Modelo de Dados
 
