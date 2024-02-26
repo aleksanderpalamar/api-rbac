@@ -10,9 +10,25 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksanderpalamar/api-rbac.git",
+    "directory": "api-rbac",
+    "branch": "main",
+    "tag": "v1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/aleksanderpalamar/api-rbac/issues",
+    "email": "apalamar@live.com",
+    "web": "https://github.com/aleksanderpalamar/api-rbac"
+  },
+  "homepage": "https://github.com/aleksanderpalamar/api-rbac#readme",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "aleksanderpalamar",
+  "contributors": [
+    "aleksanderpalamar"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^20.11.20",
     "dotenv": "^16.4.5",
