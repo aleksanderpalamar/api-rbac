@@ -7,10 +7,15 @@ import {
   getRoleByIdController,
   updateRoleController,
 } from "../controllers/controllers";
+import {
+  checkUserAttributes,
+  checkResourceAttributes,
+  checkEnvironmentAttributes,
+} from "../middleware";
 
 const router = express.Router();
 
-router.post("/users", createUserController);
+router.post("/users", checkUserAttributes, checkEnvironmentAttributes, createUserController);
 
 router.get("/users", getAllUsersController);
 
